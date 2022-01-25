@@ -13,7 +13,7 @@
 稳定性：稳定
 
 ## 图解
-<img src="./../figures/straight_insertion_sort_0.png"/>
+<img src="../../figures/straight_insertion_sort_0.png"/>
 
 ## 参考
 https://www.jianshu.com/p/7cf0656e76dd

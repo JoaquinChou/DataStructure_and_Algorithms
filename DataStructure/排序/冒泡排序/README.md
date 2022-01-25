@@ -16,10 +16,10 @@
 第一趟遍历示意图：
 
 
-<img src="./../figures/bubble_sort_0.png"/>
+<img src="../figures/bubble_sort_0.png"/>
 
 <br><br>
 第二趟遍历示意图：
 
 
-<img src="./../figures/bubble_sort_1.png"/>
+<img src="../figures/bubble_sort_1.png"/>

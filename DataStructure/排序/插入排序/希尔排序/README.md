@@ -14,7 +14,7 @@
 稳定性：不稳定
 
 ## 图解
-<img src="./../figures/shell_sort_0.png"/>
+<img src="../../figures/shell_sort_0.png"/>
 
 ## 参考
 https://www.cnblogs.com/chengxiao/p/6104371.html

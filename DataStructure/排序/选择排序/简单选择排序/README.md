@@ -12,4 +12,4 @@
 稳定性：不稳定<br>
 ## 图解
 整趟排序过程如下：<br>
-<img src="./../figures/simple_selection_sort_0.png"/>
+<img src="../../figures/simple_selection_sort_0.png"/>
