@@ -84,7 +84,7 @@ int* stable_count_sort_2(int arr[], int len) {
     int *results = new int[len];
     for (int j = 0; j < len; j++) {
         // 此时数组的下标为1~10，下标0未被使用
-        results[cnt[arr[j] - min]] =arr[j]; 
+        results[cnt[arr[j] - min]] = arr[j]; 
         // cnt[arr[j] - min]--;
         cnt[arr[j] - min]++;
     }
