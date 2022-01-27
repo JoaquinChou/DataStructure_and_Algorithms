@@ -83,9 +83,9 @@ int* stable_count_sort_2(int arr[], int len) {
     // 4、根据变形后的计数数组和结果数组的下标建立关系
     int *results = new int[len];
     for (int j = 0; j < len; j++) {
-        // results[cnt[arr[j] - min] - 1] =arr[j]; 
-        // cnt[arr[j] - min]--;
+        // 此时数组的下标为1~10，下标0未被使用
         results[cnt[arr[j] - min]] =arr[j]; 
+        // cnt[arr[j] - min]--;
         cnt[arr[j] - min]++;
     }
 
