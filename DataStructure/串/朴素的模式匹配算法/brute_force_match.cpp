@@ -17,6 +17,7 @@ int bruteForceMatch(string S, string T, int pos) {
         }
     }
 
+    // string::size不跟负数比较则没有关系，否则会把前面的负值变量强转为无符号数
     if (j > T.size() - 1)   return i - T.size();
     else return -1;
 
