@@ -64,11 +64,11 @@ public:
 
 private:
     BiTNode<T> *root;
+    bool insert(const T &data, BiTNode<T>* &node);
     void inorder(BiTNode<T> *current);
     //  BiTNode<T>* &b——以引用传递的方式传入指针，去掉&为以值传递的方式传入指针
     bool searchBST(const T &data, BiTNode<T>* &node);
     bool deleteBST(const T &data, BiTNode<T>* &node);
-    bool insert(const T &data, BiTNode<T>* &node);
     void destroy(BiTNode<T>* &node);
 };
 
